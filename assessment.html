@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assessment</title>
+</head>
+<body>
+	<h2>TEXT</h2>
+	<p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel velit neque. Morbi egestas, ex ac sagittis feugiat, nisi purus tincidunt eros, eu sagittis massa ipsum in est. Ut vitae erat urna. Vestibulum scelerisque, urna nec aliquet suscipit, ligula justo egestas mi, ut maximus nunc ipsum sit amet urna. Nunc dignissim leo ac odio lacinia, id viverra velit varius. Proin ac nulla vitae arcu malesuada fermentum. Phasellus et nulla vel arcu dignissim malesuada. Vivamus convallis felis et ligula malesuada, ac gravida ligula fermentum.</b></p>
+	<p><blockquote><em>Suspendisse potenti. Sed vitae nisl non elit interdum accumsan. Maecenas consectetur, elit non fermentum maximus, sem quam blandit arcu, et tincidunt risus lectus sit amet risus. Aenean sit amet turpis id lacus suscipit vestibulum.</em></blockquote></p>
+	<p><b>Suspendisse potenti. Sed vitae nisl non elit interdum accumsan. Maecenas consectetur, elit non fermentum maximus, sem quam blandit arcu, et tincidunt risus lectus sit amet risus. Aenean sit amet turpis id lacus suscipit vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur euismod, leo ut faucibus fermentum, ligula odio suscipit risus, non fermentum ligula eros non sapien. Integer volutpat, orci ut congue fermentum, arcu lacus finibus arcu, sed tincidunt libero purus a libero.</b></p>
+
+	<h2>TABLE</h2>
+	<table border="1">
+	    <tr>
+	        <th rowspan="2">Team Name</th>
+	        <th colspan="2">First Half</th>
+	        <th colspan="2">Second Half</th>
+	    </tr>
+	    <tr>
+	        <td>Q1</td>
+	        <td>Q2</td>
+	        <td>Q3</td>
+	        <td>Q4</td>
+	    </tr>
+	    <tr>
+	        <td>Denver</td>
+	        <td>7</td>
+	        <td>3</td>
+	        <td>0</td>
+	        <td>7</td>
+	    </tr>
+	    <tr>
+	        <td>Chicago</td>
+	        <td>3</td>
+	        <td>3</td>
+	        <td>0</td>
+	        <td>7</td>
+	    </tr>
+	</table>
+
+	<h2>LIST</h2>
+
+	<ul><li><a href="https://www.patriots.com/">New England Patriots</a>
+		<img src="https://en.wikipedia.org/wiki/File:New_England_Patriots_logo.svg" alt="Patriots Logo" width="30" height="30">
+		<ul>
+			<li>Coach: Gary Kubiak</li>
+			<li>QB</li>
+			<ol>
+				<li>Tom Brady</li>
+			</ol>
+		</ul>
+	</li></ul>
+	<ul><li><a href="https://www.denverbroncos.com/">Denver Broncos</a>
+		<img src="https://en.wikipedia.org/wiki/File:Denver_Broncos_logo.svg" alt="Denver Broncos Logo" width="30" height="30">
+		<ul>
+			<li>Coach: Gary Kubiak</li>
+			<li>QB</li>
+			<ol>
+				<li>Peyton Manning</li>
+				<li>Brock Ostweiller</li>
+			</ol>
+		</ul>
+	</li></ul>
+
+	<h2>FORM</h2>
+
+	<form action="assessment.html">
+	    <label for="firstname">First Name:</label>
+	    <input type="text" id="firstname" name="firstname" required>
+	    <label for="lastname">Last Name:</label>
+	    <input type="text" id="lastname" name="lastname" required>
+	    <br>
+
+	    <label for="favorite-sport">Favorite Sport:</label><br>
+	    <select id="favorite-sport" name="favorite-sport">
+	        <option value="soccer">Soccer</option>
+	        <option value="basketball">Basketball</option>
+	        <option value="baseball">Baseball</option>
+	        <option value="tennis">Tennis</option>
+	        <option value="football">Football</option>
+	        <option value="hockey">Hockey</option>
+	    </select>
+	    <br>
+
+	    I have:
+	    <input type="checkbox" id="attended" name="attended">
+	    <label for="attended">Attended</label>
+	    <input type="checkbox" id="played" name="played">
+	    <label for="played">Played</label>
+	    <input type="checkbox" id="coached" name="coached">
+	    <label for="coached">Coached</label>
+	    <input type="checkbox" id="bet" name="bet">
+	    <label for="bet">Bet on <br>this sport.</label><br>
+
+	    For this sport I prefer the:
+	    <input type="radio" id="amateur" name="preference" value="amateur">
+	    <label for="amateur">Amateur</label>
+	    <input type="radio" id="college" name="preference" value="college">
+	    <label for="college">College</label>
+	    <input type="radio" id="professional" name="preference" value="professional">
+	    <label for="professional">Professional</label><br>
+	    <input type="submit" value="Submit Query">
+	</form>
+
+
+</body>
+</html>
